@@ -1,0 +1,76 @@
+/* Fixed Navigation Bar*/
+
+.global-nav-inner {
+  opacity: 0.8 !important;
+  -webkit-transition: opacity  .4s ease-in-out;
+  -moz-transition   : opacity  .4s ease-in-out;
+  transition        : opacity  .4s ease-in-out;
+}
+
+.global-nav-inner:hover {
+  opacity: 1 !important;
+}
+
+.logged-in {
+  background-position: center top !important;
+}
+
+/* Main Container*/
+#page-container {
+  width: 590px !important;
+}
+
+.content-main, .dashboard {
+  width: 100% !important;
+}
+
+.tweet-user {
+  border-radius: 5px !important;
+}
+
+  #tweet-box-mini-home-profile, #tweet-box-global {
+    font-size: 15px !important;
+    line-height: 140% !important;
+  }
+
+  .tweet-box {
+    padding: 8px 8px !important;
+  }
+
+/* Steram Tweet Layout*/
+
+#stream-items-id {
+  font-size: 15px !important;
+  line-height: 140%;
+}
+
+.tweet {
+  -webkit-transition: all .2s ease-in-out !important;
+  -moz-transition   : all .2s ease-in-out !important;
+  transition        : all .2s ease-in-out !important;
+}
+  .tweet p {
+    padding-top: 2px;
+  }
+
+.time,
+.time a,
+.metadata,
+.metadata a,
+.username,
+.username a {
+  font-size: 12px !important;
+}
+
+/* Sidebar Modules*/
+
+.wtf-module,
+.Footer.module,
+.promoted-tweet,
+.module.trends,
+.profile-summary,
+.module.profile-nav,
+.module.enhanced-media-thumbnails
+ {
+  display: none !important;
+}
