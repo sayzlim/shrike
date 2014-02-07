@@ -46,7 +46,7 @@
 		</dict>
 	</dict>
 	<key>Update Manifest URL</key>
-	<string>http://s3.sayzlim.net/extension/version.plist</string>
+	<string>https://raw.github.com/sayzlim/Shrike/master/version.plist</string>
 	<key>Website</key>
 	<string>http://sayzlim.net</string>
 </dict>
