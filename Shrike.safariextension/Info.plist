@@ -15,7 +15,7 @@
 	<key>CFBundleShortVersionString</key>
 	<string>1.1</string>
 	<key>CFBundleVersion</key>
-	<string>3</string>
+	<string>4</string>
 	<key>Chrome</key>
 	<dict/>
 	<key>Content</key>
@@ -48,6 +48,6 @@
 	<key>Update Manifest URL</key>
 	<string>https://raw.github.com/sayzlim/Shrike/master/version.plist</string>
 	<key>Website</key>
-	<string>http://sayzlim.net</string>
+	<string>http://sayzlim.net/shrike-for-twitter/</string>
 </dict>
 </plist>
