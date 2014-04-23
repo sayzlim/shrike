@@ -16,6 +16,10 @@
 }
 
 /* Main Container*/
+.ProfilePage {
+  min-width: 0 !important;
+}
+
 #page-container {
   width: 590px !important;
   margin: 0 auto !important;
