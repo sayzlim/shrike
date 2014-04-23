@@ -18,15 +18,33 @@
 /* Main Container*/
 #page-container {
   width: 590px !important;
+  margin: 0 auto !important;
 }
 
-.content-main, .dashboard {
+.DashboardProfileCard {
+  background: none !important;
+  border: none !important;
+}
+
+.content-main,
+.dashboard {
   width: 100% !important;
+}
+
+.DashboardProfileCard-userFields,
+.DashboardProfileCard-bg,
+.DashboardProfileCard-stats,
+.DashboardProfileCard-avatarLink {
+  display: none !important;
 }
 
 .tweet-user {
   border-radius: 5px !important;
 }
+
+  .DashboardProfileCard-tweetbox {
+    width: auto !important;
+  }
 
   #tweet-box-mini-home-profile, #tweet-box-global {
     font-size: 15px !important;
@@ -37,11 +55,13 @@
     padding: 8px 8px !important;
   }
 
-/* Steram Tweet Layout*/
+/* Stream Tweet Layout*/
 
-#stream-items-id {
+#stream-items-id,
+.ProfileTweet-text {
   font-size: 15px !important;
-  line-height: 140%;
+  font-weight: 400 !important;
+  line-height: 140% !important;
 }
 
 .tweet {
@@ -74,3 +94,61 @@
  {
   display: none !important;
 }
+
+/* Profile Page */
+
+.Grid-cell[data-test-selector=ProfileTimeline] + .u-size1of3,
+.Grid--withGutter > .u-size1of4 {
+  display: none !important;
+}
+
+.Grid-cell[data-test-selector=ProfileTimeline],
+.AppContent-main[role=main] .u-size2of3,
+.AppContent-main[role=main] .u-size3of4 {
+  width: 100% !important;
+}
+
+.ProfileSocialProof,
+.ProfilePhotoRail {
+  display: none !important;
+}
+
+.ProfileCanopy {
+  height: auto !important;
+}
+
+.ProfileCanopy-nav {
+  width: 420px !important;
+  margin-left: 160px !important;
+}
+
+.ProfileCanopy-header {
+  height: 180px !important;
+}
+
+.ProfileAvatar {
+  height: 100px !important;
+  width: 100px !important;
+}
+
+.ProfileNav-stat {
+  padding: 14px 14px 7px !important;
+}
+
+  .ProfileNav-item--media,
+  .ProfileNav-item--favorites,
+  .ProfileNav-item--more {
+    display: none !important;
+  }
+
+  .ProfileNav-value {
+    font-size: 14px !important;
+  }
+
+  .btn.small {
+    padding: 2px 2px 5px !important;
+  }
+
+  .ProfileNav-item--followers.is-hidden {
+    display: inline-block !important;
+  }
