@@ -62,7 +62,9 @@
 /* Stream Tweet Layout*/
 
 #stream-items-id,
-.ProfileTweet-text {
+.ProfileTweet-text,
+.ProfileTweet .twitter-hashtag b,
+.ProfileTweet .twitter-atreply b {
   font-size: 15px !important;
   font-weight: 400 !important;
   line-height: 140% !important;
