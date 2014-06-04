@@ -5,7 +5,7 @@
 	<key>Author</key>
 	<string>Sayz Lim</string>
 	<key>Builder Version</key>
-	<string>9537.75.14</string>
+	<string>9537.76.4</string>
 	<key>CFBundleDisplayName</key>
 	<string>Shrike</string>
 	<key>CFBundleIdentifier</key>
@@ -13,9 +13,9 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.1</string>
+	<string>1.1.1</string>
 	<key>CFBundleVersion</key>
-	<string>5</string>
+	<string>6</string>
 	<key>Chrome</key>
 	<dict/>
 	<key>Content</key>

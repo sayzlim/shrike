@@ -33,6 +33,7 @@
 .content-main,
 .dashboard {
   width: 100% !important;
+  margin: 0 !important;
 }
 
 .DashboardProfileCard-userFields,
