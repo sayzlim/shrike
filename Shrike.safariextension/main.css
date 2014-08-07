@@ -43,6 +43,10 @@
   display: none !important;
 }
 
+.tweet-form.has-preview.has-thumbnail .tweet-box {
+  min-height: 120px !important;
+}
+
 .tweet-user {
   border-radius: 5px !important;
 }
@@ -97,7 +101,8 @@
 .module.trends,
 .profile-summary,
 .module.profile-nav,
-.module.enhanced-media-thumbnails
+.module.enhanced-media-thumbnails,
+.Grid-cell.u-size1of3
  {
   display: none !important;
 }
