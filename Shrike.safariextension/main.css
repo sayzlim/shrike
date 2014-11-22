@@ -39,7 +39,10 @@
 .DashboardProfileCard-userFields,
 .DashboardProfileCard-bg,
 .DashboardProfileCard-stats,
-.DashboardProfileCard-avatarLink {
+.DashboardProfileCard-avatarLink,
+.ProfileNav-item--following,
+.ProfileNav-item--followers,
+.js-mini-profile-stats {
   display: none !important;
 }
 
@@ -62,6 +65,15 @@
 
   .tweet-box {
     padding: 8px 8px !important;
+  }
+
+  .top-timeline-tweet-box-user-image {
+    top: 10px !important;
+  }
+
+  .top-timeline-tweetbox .timeline-tweet-box {
+    border-radius: 8px !important;
+    margin-bottom: 2em !important;
   }
 
 /* Stream Tweet Layout*/
